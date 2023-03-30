@@ -7,7 +7,7 @@ int main() {
       break;
     }
     int additive_persistence{0};
-
+//track amount of adds
     while (value >= 10) {
       ++additive_persistence;
       int sum_of_digits{0};
